@@ -31,7 +31,7 @@ const MapHandler = ({ place, marker }: MapHandlerProps) => {
   return null;
 };
 
-const API_KEY = "";
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 const App = () => {
   const [selectedPlace, setSelectedPlace] =
